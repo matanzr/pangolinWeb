@@ -170,7 +170,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header_d.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -201,7 +201,7 @@ header.masthead {
       header.masthead .header-content {
         position: absolute;
         top: 50%;
-        padding: 0 50px;
+        padding: 25px 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); }
