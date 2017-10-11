@@ -10,3 +10,8 @@ $gray-dark: lighten($gray-base, 20%) !default;
 $gray: lighten($gray-base, 33.5%) !default;
 $gray-light: lighten($gray-base, 46.7%) !default;
 $gray-lighter: lighten($gray-base, 93.5%) !default;
+
+$theme-inverted: #e2eedc !default;
+
+$title-font:  'Titillium Web', sans-serif;
+$text-font: 'Raleway', sans-serif

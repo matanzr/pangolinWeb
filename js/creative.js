@@ -30,10 +30,13 @@
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $("#nav-logo").attr('src', "img/pangolin_logo_thumb.png")
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $("#nav-logo").attr('src', "img/pangolin_logo_thumb_inverted.png")
     }
   });
+
 
   // Scroll reveal calls
   window.sr = ScrollReveal();
