@@ -1,6 +1,10 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  if (window.matchMedia("(min-width: 992px)").matches) {
+    $("#nav-logo").attr('src', "img/pangolin_logo_thumb_inverted.png")
+  }
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -25,7 +29,7 @@
     target: '#mainNav',
     offset: 48
   });
-
+  
   // Collapse the navbar when page is scrolled
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
@@ -33,10 +37,13 @@
       $("#nav-logo").attr('src', "img/pangolin_logo_thumb.png")
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      if (window.matchMedia("(min-width: 992px)").matches) {
       $("#nav-logo").attr('src', "img/pangolin_logo_thumb_inverted.png")
+      }
     }
   });
 
+  
 
   // Scroll reveal calls
   window.sr = ScrollReveal();
