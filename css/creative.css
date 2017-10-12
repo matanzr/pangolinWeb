@@ -81,6 +81,9 @@ body {
 ul {
   text-align: left; }
 
+.icon-liner {
+  margin-top: 25px; }
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
