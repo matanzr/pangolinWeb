@@ -84,6 +84,11 @@ ul {
 .icon-liner {
   margin-top: 25px; }
 
+.primary-light {
+  border-width: 1px;
+  max-width: 100%;
+  border-color: rgba(241, 70, 90, 0.18); }
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
