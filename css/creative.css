@@ -41,6 +41,7 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
+  color: white;
   background-color: #f1465a !important; }
 
 .bg-dark {
